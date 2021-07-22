@@ -15,4 +15,9 @@ public class HelloController {
         return "hello !";
     }
 
+    @ResponseBody
+    @RequestMapping("/hi")
+    public String hi(){
+        return "hi";
+    }
 }
