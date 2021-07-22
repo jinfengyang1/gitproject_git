@@ -20,8 +20,14 @@ public class HelloController {
     @ResponseBody
     @RequestMapping("/hi")
     public String hi() {
-
         System.out.println("hahahahh");
         return "hi";
+    }
+
+    @ResponseBody
+    @RequestMapping("/hehe")
+    public String hehe() {
+        System.out.println("heheheheh");
+        return "hehehe";
     }
 }
