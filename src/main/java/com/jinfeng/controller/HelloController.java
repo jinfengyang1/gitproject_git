@@ -18,7 +18,9 @@ public class HelloController {
 
     @ResponseBody
     @RequestMapping("/hi")
-    public String hi(){
+    public String hi() {
+
+        System.out.println("hahahahh");
         return "hi";
     }
 }
