@@ -6,14 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.sql.SQLOutput;
-
 @Controller
 public class HelloController {
 
     @ResponseBody
     @RequestMapping("/hello")
-    public String hello() {
+    public String hello(){
+        System.out.println("hahha");
         return "hello !";
     }
 
